@@ -10,7 +10,7 @@ void loop() {
   int ij = 3;
   float result;
   
-  result = (float)ii / ij;
+  result = ii / ij;
   
   Serial.println(result);
   delay(10000);
